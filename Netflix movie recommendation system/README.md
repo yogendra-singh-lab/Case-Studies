@@ -52,7 +52,5 @@ You need to have installed following softwares and libraries in your machine bef
 * pandas - data handling library
 * XGBoost - Used for making regression models
 * Surprise - used for making recommendation system models
-### Authors
-Veerala Hari Krishna - Complete work
 ### Acknowledgments
 Applied AI Course
