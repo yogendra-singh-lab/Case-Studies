@@ -29,8 +29,7 @@ Netflix provided a lot of anonymous rating data, and a prediction accuracy bar t
 * There are 480189 unique user IDs.
 * There are ratings. Ratings are on a five star (integral) scale from 1 to 5.
 * There is a date on which the movie is watched by the user in the format YYYY-MM-DD.
-### Getting Started
-Start by downloading the project and run "NetflixMoviesRecommendation.ipynb" file in ipython-notebook.
+
 
 ### Prerequisites
 You need to have installed following softwares and libraries in your machine before running this project.
