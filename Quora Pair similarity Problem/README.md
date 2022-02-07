@@ -81,17 +81,6 @@ i derived some features from questions like no of common words, word share and s
    - Trained some models and also tuned hyperparameters using Random and Grid search. I didnt used total train data to train my algorithms. Because of ram availability constraint in my PC, i sampled some data and Trained my models. below are models and their logloss scores. you can check total modelling and feature extraction [here](https://github.com/UdiBhaskar/Quora-Question-pair-similarity/blob/master/Quora%20Question%20pair%20similarity.ipynb)  
    For below table BF - Basic features, AF - Advanced features, DF - Distance Features including WMD.
 
-| Model         | Features Used | Log Loss |
-| ------------- | ------------- | ------------- |
-| Logistic Regression  | BF + AF  | 0.4003415  |
-| Linear SVM           | BF + AF  | 0.4036245  |
-| Random Forest  | BF + AF  | 0.4143914  |
-| XGBoost  | BF + AF  | 0.362546  |
-| Logistic Regression  | BF + AF + Tf-Idf  | 0.358445  |
-| Linear SVM  | BF + AF + Tf-Idf  | 0.362049  |
-| Logistic Regression  | BF + AF + DF + AVG-W2V  | 0.3882535  |
-| Linear SVM  |  BF + AF + DF + AVG-W2V  | 0.394458  |
-| XGBoost  | BF + AF + DF + AVG-W2V  | 0.313341  |
 
 ##### References:
 1. https://www.kaggle.com/c/quora-question-pairs 
